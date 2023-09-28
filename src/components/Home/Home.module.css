@@ -1,0 +1,28 @@
+.hed{
+    background-color: #1abc9c;
+
+ }
+
+ .line{
+    position: relative;
+ }
+
+ .line::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    height: 3px;
+    width: 30%;
+    background-color: aliceblue;
+ }
+
+ .line::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 60%;
+    height: 3px;
+    width: 30%;
+    background-color: aliceblue;
+ }
